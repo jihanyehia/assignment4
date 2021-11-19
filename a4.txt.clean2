@@ -1,0 +1,261 @@
+Script started on 2021-11-19 00:55:34+00:00 [TERM="xterm" TTY="/dev/pts/0" COLUMNS="197" LINES="52"]
+]0;yehia@f6linuxA9: ~/assignment4yehia@f6linuxA9:~/assignment4$ 
+]0;yehia@f6linuxA9: ~/assignment4yehia@f6linuxA9:~/assignment4$ cd ..
+]0;yehia@f6linuxA9: ~yehia@f6linuxA9:~$ 
+]0;yehia@f6linuxA9: ~yehia@f6linuxA9:~$ wget http://cs.stanford.edu/people/alecmgo/trainingandtestdata.zip
+URL transformed to HTTPS due to an HSTS policy
+--2021-11-19 00:56:04--  https://cs.stanford.edu/people/alecmgo/trainingandtestdata.zip
+Resolving cs.stanford.edu (cs.stanford.edu)... 171.64.64.64
+Connecting to cs.stanford.edu (cs.stanford.edu)|171.64.64.64|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 81363704 (78M) [application/zip]
+Saving to: trainingandtestdata.zip
+
+trainingandtestdata.zip                             0%[                                                                                                           ]       0  --.-KB/s               trainingandtestdata.zip                             0%[                                                                                                           ] 120.00K   590KB/s               trainingandtestdata.zip                             1%[>                                                                                                          ]   1.34M  3.29MB/s               trainingandtestdata.zip                             2%[=>                                                                                                         ]   1.85M  2.46MB/s               trainingandtestdata.zip                             4%[===>                                                                                                       ]   3.51M  3.67MB/s               trainingandtestdata.zip                             6%[=====>                                                                                                     ]   5.07M  4.37MB/s               trainingandtestdata.zip                             7%[=======>                                                                                                   ]   6.07M  4.45MB/s               trainingandtestdata.zip                             9%[========>                                                                                                  ]   7.07M  4.52MB/s               trainingandtestdata.zip                            10%[==========>                                                                                                ]   8.07M  4.57MB/s               trainingandtestdata.zip                            11%[===========>                                                                                               ]   9.07M  4.61MB/s               trainingandtestdata.zip                            12%[============>                                                                                              ]  10.07M  4.64MB/s               trainingandtestdata.zip                            14%[==============>                                                                                            ]  11.07M  4.67MB/s               trainingandtestdata.zip                            15%[===============>                                                                                           ]  12.05M  4.69MB/s               trainingandtestdata.zip                            16%[=================>                                                                                         ]  13.07M  4.71MB/s               trainingandtestdata.zip                            18%[==================>                                                                                        ]  14.05M  4.73MB/s               trainingandtestdata.zip                            19%[===================>                                                                                       ]  15.05M  4.74MB/s    eta 13s    trainingandtestdata.zip                            20%[====================>                                                                                      ]  15.73M  4.66MB/s    eta 13s    trainingandtestdata.zip                            21%[======================>                                                                                    ]  17.04M  4.96MB/s    eta 13s    trainingandtestdata.zip                            23%[=======================>                                                                                   ]  18.04M  5.14MB/s    eta 13s    trainingandtestdata.zip                            24%[=========================>                                                                                 ]  19.02M  5.32MB/s    eta 13s    trainingandtestdata.zip                            25%[==========================>                                                                                ]  19.89M  4.97MB/s    eta 13s    trainingandtestdata.zip                            28%[=============================>                                                                             ]  21.88M  4.95MB/s    eta 13s    trainingandtestdata.zip                            29%[==============================>                                                                            ]  22.87M  4.95MB/s    eta 13s    trainingandtestdata.zip                            30%[===============================>                                                                           ]  23.87M  4.96MB/s    eta 13s    trainingandtestdata.zip                            32%[=================================>                                                                         ]  24.87M  4.95MB/s    eta 13s    trainingandtestdata.zip                            33%[==================================>                                                                        ]  25.88M  4.95MB/s    eta 11s    trainingandtestdata.zip                            34%[====================================>                                                                      ]  26.88M  4.95MB/s    eta 11s    trainingandtestdata.zip                            35%[=====================================>                                                                     ]  27.87M  4.95MB/s    eta 11s    trainingandtestdata.zip                            37%[======================================>                                                                    ]  28.88M  4.95MB/s    eta 11s    trainingandtestdata.zip                            38%[========================================>                                                                  ]  29.88M  4.95MB/s    eta 11s    trainingandtestdata.zip                            39%[=========================================>                                                                 ]  30.88M  4.95MB/s    eta 10s    trainingandtestdata.zip                            41%[==========================================>                                                                ]  31.88M  4.96MB/s    eta 10s    trainingandtestdata.zip                            42%[============================================>                                                              ]  32.88M  5.10MB/s    eta 10s    trainingandtestdata.zip                            43%[=============================================>                                                             ]  33.88M  4.96MB/s    eta 10s    trainingandtestdata.zip                            44%[===============================================>                                                           ]  34.88M  4.96MB/s    eta 10s    trainingandtestdata.zip                            46%[================================================>                                                          ]  35.88M  4.95MB/s    eta 9s     trainingandtestdata.zip                            47%[=================================================>                                                         ]  36.88M  4.96MB/s    eta 9s     trainingandtestdata.zip                            48%[===================================================>                                                       ]  37.87M  4.96MB/s    eta 9s     trainingandtestdata.zip                            50%[====================================================>                                                      ]  38.85M  4.96MB/s    eta 9s     trainingandtestdata.zip                            51%[=====================================================>                                                     ]  39.87M  4.96MB/s    eta 9s     trainingandtestdata.zip                            52%[=======================================================>                                                   ]  40.87M  4.95MB/s    eta 8s     trainingandtestdata.zip                            53%[========================================================>                                                  ]  41.87M  4.96MB/s    eta 8s     trainingandtestdata.zip                            55%[==========================================================>                                                ]  42.87M  4.95MB/s    eta 8s     trainingandtestdata.zip                            56%[===========================================================>                                               ]  43.87M  4.96MB/s    eta 8s     trainingandtestdata.zip                            57%[============================================================>                                              ]  44.87M  4.96MB/s    eta 8s     trainingandtestdata.zip                            59%[==============================================================>                                            ]  45.87M  4.95MB/s    eta 6s     trainingandtestdata.zip                            60%[===============================================================>                                           ]  46.87M  4.96MB/s    eta 6s     trainingandtestdata.zip                            61%[================================================================>                                          ]  47.85M  4.95MB/s    eta 6s     trainingandtestdata.zip                            62%[==================================================================>                                        ]  48.85M  4.95MB/s    eta 6s     trainingandtestdata.zip                            64%[===================================================================>                                       ]  49.87M  4.96MB/s    eta 6s     trainingandtestdata.zip                            65%[=====================================================================>                                     ]  50.87M  4.96MB/s    eta 5s     trainingandtestdata.zip                            66%[======================================================================>                                    ]  51.87M  4.96MB/s    eta 5s     trainingandtestdata.zip                            68%[=======================================================================>                                   ]  52.87M  4.96MB/s    eta 5s     trainingandtestdata.zip                            69%[=========================================================================>                                 ]  53.85M  4.95MB/s    eta 5s     trainingandtestdata.zip                            70%[==========================================================================>                                ]  54.85M  4.95MB/s    eta 5s     trainingandtestdata.zip                            71%[============================================================================>                              ]  55.85M  4.96MB/s    eta 4s     trainingandtestdata.zip                            73%[=============================================================================>                             ]  56.85M  4.95MB/s    eta 4s     trainingandtestdata.zip                            74%[==============================================================================>                            ]  57.86M  4.96MB/s    eta 4s     trainingandtestdata.zip                            75%[================================================================================>                          ]  58.84M  4.95MB/s    eta 4s     trainingandtestdata.zip                            77%[=================================================================================>                         ]  59.84M  4.95MB/s    eta 4s     trainingandtestdata.zip                            78%[==================================================================================>                        ]  60.84M  4.96MB/s    eta 3s     trainingandtestdata.zip                            79%[====================================================================================>                      ]  61.84M  4.96MB/s    eta 3s     trainingandtestdata.zip                            80%[=====================================================================================>                     ]  62.84M  4.95MB/s    eta 3s     trainingandtestdata.zip                            82%[=======================================================================================>                   ]  63.84M  4.95MB/s    eta 3s     trainingandtestdata.zip                            83%[========================================================================================>                  ]  64.84M  4.95MB/s    eta 3s     trainingandtestdata.zip                            84%[=========================================================================================>                 ]  65.84M  4.96MB/s    eta 2s     trainingandtestdata.zip                            86%[===========================================================================================>               ]  66.84M  4.96MB/s    eta 2s     trainingandtestdata.zip                            87%[============================================================================================>              ]  67.82M  4.95MB/s    eta 2s     trainingandtestdata.zip                            88%[=============================================================================================>             ]  68.82M  4.95MB/s    eta 2s     trainingandtestdata.zip                            89%[===============================================================================================>           ]  69.82M  4.96MB/s    eta 2s     trainingandtestdata.zip                            91%[================================================================================================>          ]  70.82M  4.95MB/s    eta 1s     trainingandtestdata.zip                            91%[=================================================================================================>         ]  71.26M  4.76MB/s    eta 1s     trainingandtestdata.zip                            93%[===================================================================================================>       ]  72.85M  4.95MB/s    eta 1s     trainingandtestdata.zip                            95%[====================================================================================================>      ]  73.85M  4.95MB/s    eta 1s     trainingandtestdata.zip                            96%[======================================================================================================>    ]  74.87M  4.95MB/s    eta 1s     trainingandtestdata.zip                            97%[=======================================================================================================>   ]  75.87M  4.95MB/s    eta 0s     trainingandtestdata.zip                            99%[========================================================================================================>  ]  76.87M  4.96MB/s    eta 0s     trainingandtestdata.zip                           100%[==========================================================================================================>]  77.59M  4.96MB/s    in 16s     
+
+2021-11-19 00:56:21 (4.91 MB/s) - trainingandtestdata.zip saved [81363704/81363704]
+
+]0;yehia@f6linuxA9: ~yehia@f6linuxA9:~$ unzip trainingandtestdata.zip 
+Archive:  trainingandtestdata.zip
+  inflating: testdata.manual.2009.06.14.csv  
+  inflating: training.1600000.processed.noemoticon.csv 
+
+1. Pick the 100 customer reviews with the highest helpfulness scores. Save them under directory REVIEWS in files named as REVIEWS/reviewID.txt.
+]0;yehia@f6linuxA9: ~/assignment4yehia@f6linuxA9:~/assignment4$ sort -nr -t "	" -k9 ../amazon_reviews_us_Books_v1_02.tsv | head -n 100 > top100reviews 
+]0;yehia@f6linuxA9: ~/assignment4yehia@f6linuxA9:~/assignment4$ sort -n -t "	" -k9 ../amazon_reviews_us_Books_v1_02.tsv | head -n 100 > least100reviews
+]0;yehia@f6linuxA9: ~/assignment4yehia@f6linuxA9:~/assignment4$ ls
+a4.txt  least100reviews  top100reviews 
+]0;yehia@f6linuxA9: ~/assignment4yehia@f6linuxA9:~/assignment4$ mkdir REVIEWS 
+]0;yehia@f6linuxA9: ~/assignment4yehia@f6linuxA9:~/assignment4$ mkdir REVIEWS_UNHELPFUL
+]0;yehia@f6linuxA9: ~/assignment4yehia@f6linuxA9:~/assignment4$ 
+]0;yehia@f6linuxA9: ~/assignment4yehia@f6linuxA9:~/assignment4$ cd REVIEWS 
+]0;yehia@f6linuxA9: ~/assignment4/REVIEWSyehia@f6linuxA9:~/assignment4/REVIEWS$ awk -F"\t" '{print $14 > $3".txt"}'  ../top100reviews
+]0;yehia@f6linuxA9: ~/assignment4/REVIEWSyehia@f6linuxA9:~/assignment4/REVIEWS$ 
+]0;yehia@f6linuxA9: ~/assignment4/REVIEWSyehia@f6linuxA9:~/assignment4/REVIEWS$ cd ../REVIEWS_UNHELPFUL 
+]0;yehia@f6linuxA9: ~/assignment4/REVIEWS_UNHELPFULyehia@f6linuxA9:~/assignment4/REVIEWS_UNHELPFUL$ awk -F"\t" '{print $14 > $3".txt"}'  ../least100reviews  
+]0;yehia@f6linuxA9: ~/assignment4/REVIEWS_UNHELPFULyehia@f6linuxA9:~/assignment4/REVIEWS_UNHELPFUL$ ls
+R121VUBD3RIDXO.txt  R1L2UZSQPYPX4K.txt  R1YOIJXXFZOBTX.txt  R2EPJOLQAERTKH.txt  R2UAULD2FRPW2Q.txt  R3FLXN29T1WU1E.txt  R3PGOAHT8TNPXG.txt  R5LH8RCINSV42.txt  RE6ULFBNWJ5H7.txt  RPLTXMYQOI2I8.txt
+R12CUIV8LIFCYD.txt  R1MBNO9UJBRDCM.txt  R1ZIFZTOPZAQTF.txt  R2JMPJE5KUC3WH.txt  R2XU9JU32I8ECL.txt  R3IJAAD4RWS5ZU.txt  R3PS1Y38JL3E3R.txt  R66Y1AAU8JATX.txt  RG01PP21D844B.txt  RS25EC2AUQV4P.txt
+R15KLPGL0NRLEQ.txt  R1MENKTY3D1KGS.txt  R20OPI397GA3EA.txt  R2LJBFFCYAGB0Q.txt  R2YEG8Y0FJ5SG5.txt  R3IYAU16YS1VW6.txt  R3QFEFCL6HY0AX.txt  R679RNU1R2IX8.txt  RGAAK1R7W1PHW.txt  RSEFQZGC2HTFX.txt
+R1620G8YRW423M.txt  R1MJ6DCVH1PA5T.txt  R23DSJPINDFLLO.txt  R2LU6T85N9L4U4.txt  R37GMGOBPJ0NQX.txt  R3JEMFR0AXVQ5Z.txt  R3R42UOO1Q9C6J.txt  R7EEYTSIWZIK4.txt  RGXCK5NR4RXJO.txt  RUJBB196IYF5H.txt
+R1E3LYWTB1QIOL.txt  R1R34O0PP5NR61.txt  R25MOL7WS6SVWS.txt  R2M6J7JJ798UIZ.txt  R38ZBJXWHC5XO3.txt  R3JU9S171O4CGI.txt  R3TCP5DFYDZB8K.txt  R8KSCC087QZBJ.txt  RHR8DD8567UVV.txt  RWQF33MVBJSDD.txt
+R1FPGCCLQV6KDY.txt  R1S0WBK8MVAQ3M.txt  R26W7AB99KS0XB.txt  R2NFO96QUYDWI4.txt  R3AHYTLUKGTJAX.txt  R3LCQERTGNK3CD.txt  R3TV44BQLYAGHQ.txt  R8VBZQJSY03VQ.txt  RKL3BR7D32YLB.txt  RWVBCDA9HHJ1T.txt
+R1HN21IS269EIA.txt  R1S3IRET9UWBG6.txt  R2940YS4ND7MK5.txt  R2OYCC4UISZCYC.txt  R3AI10T5TJFH8X.txt  R3MC3M258X395Q.txt  R3UA9C01HFUV9T.txt  R9D30BEROYYWC.txt  RLNJFZIB7LB3M.txt  RX1PT50H84E41.txt
+R1I6CE7QV421PI.txt  R1TYKLU1KGG2WI.txt  R29ODU820RYP5I.txt  R2PTLHYPER3B4I.txt  R3BN0XUPEPUE79.txt  R3MLFB5RYKNOF4.txt  R3V65Q0LW8M5RW.txt  RD1SSCISY8Y3G.txt  RLQKITK5IJWO1.txt  RXCO7F2UKA9L4.txt
+R1I6LKJEIEN89V.txt  R1UBD3PCKGMTEX.txt  R29YMGFDEVO3H0.txt  R2STQOSORN09R0.txt  R3DEC2PJXLEWB1.txt  R3N5G92FKZ2HSK.txt  R3W3MEPCJ5NTA6.txt  RDGYTVIEAW8A7.txt  RMCAXHTOM96IW.txt  RYAKOMK44DE58.txt
+R1KVHLGG8J457R.txt  R1V2BZ1JFBCJBV.txt  R2E9VGNAQ0I0JM.txt  R2U5FJBFOAMUWH.txt  R3E1WKUD9S7RU9.txt  R3OVHIS2IG8WCD.txt  R4AQBHP2FZ83U.txt   RE5XV6NVB17NT.txt  RMFTJ7Z5I7IJV.txt  RZV8MZHXYM864.txt
+
+2. Do lemmatization of all words in the review body of your 100 customer reviews: remove the endings "ing", "ed", "s" to keep the parts of words you can actually compare. 
+]0;yehia@f6linuxA9: ~/assignment4/REVIEWS_UNHELPFULyehia@f6linuxA9:~/assignment4/REVIEWS_UNHELPFUL$ cd .. 
+]0;yehia@f6linuxA9: ~/assignment4yehia@f6linuxA9:~/assignment4$ vi lemamatization
+s/ing\b//gi
+s/ed\b//gi
+s/s\b//gi
+
+]0;yehia@f6linuxA9: ~/assignment4yehia@f6linuxA9:~/assignment4$ for f in REVIEWS/R*.txt; do sed -i -f lemmatization $f; done
+]0;yehia@f6linuxA9: ~/assignment4yehia@f6linuxA9:~/assignment4$ for f in REVIEWS_UNHELPFUL/R*.txt; do sed -i -f lemmatization $f; done
+]0;yehia@f6linuxA9: ~/assignment4yehia@f6linuxA9:~/assignment4$ cat REVIEWS_UNHELPFUL/R2STQOSORN09R0.txt
+Thi book wa good! I especially lov how the author kept you gues. I found it very hard try to figure out what wa go to happen next. The development of thi story i good in term of how it move through the character' eye show you what happen to her in the past and how she' deal with her own problem in her present time. While the story may seem at time to be mov at a rapid pace, thi novel i in my opinion, rivet and quite captivat. What I did like most about the novel i the strong bond between Roxane and her uncle Cecil. Whereby her father' a total screw up and a pervert, she at least still had somewhat of a father figure in her life which probably i what kept her from totally hat men. Not to mention, be rap by your own father isn't an easy th to get over, so her hav that kind of bond with a male member of her family wa the least likely th for me to believe could take place. I do like that Cecil wa the hero in her life. And that' my reason for giv the book 5 star rat.  <br /> <br />I'd recommend thi book a a read to women all over a I know there' still a great many women still struggl with the painful memory of be abu sexually and just a many in a physically abusive relationship in some shape or form. Goin ha written a touch and very mov story about such a delicate subject many choose to ignore. A the main character point out in the story, abuse i abuse, no matter what form it' present in.
+
+3. Then you should do the same removal of stop words, words with one or two characters, and punctuation symbols (commas, dots, colons, etc) 
+]0;yehia@f6linuxA9: ~/assignment4yehia@f6linuxA9:~/assignment4$ vi sedfile
+s/,//g
+s/\./ /g
+s/\;//g
+s/-//g
+s/\!//g
+s/\?//g
+s/[()]//g
+s/\*//g
+s/<[a-zA-z]\+ \/>//gi
+s/\x27//g #Removing the apostrophe because it showed as top 10 frequent words: s/\'//g didn't work from inside the sedfile (although it did from the command line)
+s/\\\\\"//g #Removing \\" because it appeared on the list of top 10 frequent words
+s/\b[a-zA-z][a-zA-z]\b//gi
+s/\b[a-zA-z]\b//gi
+s/\b[a-zA-z][a-zA-z][a-zA-z]\b//gi
+s/\bth[a-zA-z][a-zA-z]\b//gi
+s/\bth[eo][rs]e\b//gi
+s/\bwhe[nr]*\b//gi
+s/\bwho*\b//gi
+s/\bbec[ao]me\b//gi
+s/\b[cw]ould\b//gi
+s/\b[jm]ust\b//gi
+s/\byour\b//gi
+s/\bwhi[cl][he]\b//gi
+s/\bfrom\b//gi
+s/\bhave\b//gi
+s/\bhence\b//gi
+s/\bwill\b//gi
+s/\bwith\b//gi
+s/\bwithin\b//gi
+s/\bwithout\b//gi
+s/\bwhether\b//gi
+s/\b*either\b//gi
+s/\bmaybe\b//gi
+s/\beach\b//gi
+s/\belse\b//gi
+s/\bmight\b//gi
+s/\bmine\b//gi
+s/\babout\b//gi
+s/\bactually\b//gi
+s/\balmost\b//gi
+s/\balso\b//gi
+s/\balthough\b//gi
+s/\balways\b//gi
+s/\bdont\b//gi
+s/\b[cw]ant\b//gi
+ 
+]0;yehia@f6linuxA9: ~/assignment4yehia@f6linuxA9:~/assignment4$ for f in REVIEWS/R*.txt; do sed -i -f sedfile $f; done
+]0;yehia@f6linuxA9: ~/assignment4yehia@f6linuxA9:~/assignment4$ for f in REVIEWS_UNHELPFUL/R*.txt; do sed -i -f sedfile $f; done
+]0;yehia@f6linuxA9: ~/assignment4yehia@f6linuxA9:~/assignment4$ 
+]0;yehia@f6linuxA9: ~/assignment4yehia@f6linuxA9:~/assignment4$ cat REVIEWS_UNHELPFUL/R2STQOSORN09R0.txt
+ book  good  especially    author kept  gues   found  very hard   figure  what    happen next   development   story  good  term    move through  character  show  what happen     past    deal    problem   present time    story  seem  time      rapid pace  novel    opinion rivet  quite captivat  What   like most   novel   strong bond between Roxane   uncle Cecil  Whereby  father  total screw    pervert   least still  somewhat   father figure   life  probably  what kept   totally      mention      father isnt  easy    over     kind  bond   male member   family   least likely     believe  take place    like  Cecil   hero   life     reason    book 5 star      recommend  book   read  women  over   know  still  great many women still struggl   painful memory    sexually    many   physically abusive relationship  some shape  form  Goin  written  touch  very  story  such  delicate subject many choose  ignore    main character point    story abuse  abuse  matter what form  present   
+4. Write a shell script that takes 2 filenames as parameters: REVIEWS/reviewID.txt and the tweets file you downloaded above (training*.csv), compares each tweet text (6th column) against the review_body, and appends to the end of the REVIEWS/reviewID.txt file all tweets that have at least 2 words in common with the review_body.
+]0;yehia@f6linuxA9: ~/assignment4yehia@f6linuxA9:~/assignment4$ vi commonWords.sh
+#!/bin/bash
+cat $1 > $1".tweets"
+while IFS="" read -r p || [ -n "$p" ]
+do
+        #echo $p
+        if [ `comm -12 <(tr -s " " "\n" < $1 | sort) <(echo $p | tr -s " " "\n" | sort) | wc -l` -ge 2 ]
+        then
+                echo $p >> $1".tweets"
+        fi
+done < $2
+
+]0;yehia@f6linuxA9: ~/assignment4yehia@f6linuxA9:~/assignment4$ chmod 777 commonWords.sh 
+]0;yehia@f6linuxA9: ~/assignment4yehia@f6linuxA9:~/assignment4$ head -n 1000 ../training*.csv > twitter1000.csv
+]0;yehia@f6linuxA9: ~/assignment4yehia@f6linuxA9:~/assignment4$ sed  -i 's/"//g' twitter1000.csv
+]0;yehia@f6linuxA9: ~/assignment4yehia@f6linuxA9:~/assignment4$ sed -i 's/,/\t/5' twitter1000.csv
+]0;yehia@f6linuxA9: ~/assignment4yehia@f6linuxA9:~/assignment4$ cut -f2 twitter1000.csv > twitterbody1000
+]0;yehia@f6linuxA9: ~/assignment4yehia@f6linuxA9:~/assignment4$ sed  -i -f lemmatization twitterbody1000
+]0;yehia@f6linuxA9: ~/assignment4yehia@f6linuxA9:~/assignment4$ sed -i -f sedfile twitterbody1000
+]0;yehia@f6linuxA9: ~/assignment4yehia@f6linuxA9:~/assignment4$ 
+]0;yehia@f6linuxA9: ~/assignment4yehia@f6linuxA9:~/assignment4$ head -n 3 twitterbody1000 
+@switchfoot http://twitpic /2y1zl  Awww   bummer    shoulda  David Carr  Third      
+ upset    update  Facebook  text          result  School today   Blah
+@Kenichan   many time   ball  Manag  save 50%   rest    bound
+
+5. Use the parallel command we have seen to perform this operation against all 100 REVIEWS/reviewID.txt files in parallel. Time your parallel execution with the time command.
+]0;yehia@f6linuxA9: ~/assignment4yehia@f6linuxA9:~/assignment4$ time parallel -j 2 ./commonWords.sh {1} twitterbody1000 ::: REVIEWS/R*txt
+
+real	5m57.472s
+user	4m52.438s
+sys	4m34.881s
+]0;yehia@f6linuxA9: ~/assignment4yehia@f6linuxA9:~/assignment4$ time parallel -j 2 ./commonWords.sh {1} twitterbody1000 ::: REVIEWS_UNHELPFUL/R*txt
+
+real	6m7.189s
+user	4m48.425s
+sys	5m8.969s
+]0;yehia@f6linuxA9: ~/assignment4yehia@f6linuxA9:~/assignment4$ 
+]0;yehia@f6linuxA9: ~/assignment4yehia@f6linuxA9:~/assignment4$ ls REVIEWS
+R109NJJ7M1WVSA.txt         R1IF16DWWMC0CU.txt.tweets  R1Y557JBALMN8K.txt         R2KEEEVV8Y1NFI.txt.tweets  R370A5CNKW3PRQ.txt         R3ITPVMB21C8QV.txt.tweets  RDHI2GR5Y70W4.txt
+R109NJJ7M1WVSA.txt.tweets  R1IGJOWWDLP3RS.txt         R1Y557JBALMN8K.txt.tweets  R2MLNFHGCJUWVF.txt         R370A5CNKW3PRQ.txt.tweets  R3JLSN6LGREPGM.txt         RDHI2GR5Y70W4.txt.tweets
+R10XI57RK1Y3HJ.txt         R1IGJOWWDLP3RS.txt.tweets  R20L37R2QXU1MN.txt         R2MLNFHGCJUWVF.txt.tweets  R37ZXODUGD65UE.txt         R3JLSN6LGREPGM.txt.tweets  RDMP45RYIRYSB.txt
+R10XI57RK1Y3HJ.txt.tweets  R1JE512OED0O0U.txt         R20L37R2QXU1MN.txt.tweets  R2OOSWKHOA995R.txt         R37ZXODUGD65UE.txt.tweets  R3L67TB57GUJL3.txt         RDMP45RYIRYSB.txt.tweets
+R1273QROSPVC9Q.txt         R1JE512OED0O0U.txt.tweets  R22D7C0DULO855.txt         R2OOSWKHOA995R.txt.tweets  R38RXR8USISV94.txt         R3L67TB57GUJL3.txt.tweets  REZVCBI3L2685.txt
+R1273QROSPVC9Q.txt.tweets  R1K2ME7XQZRTN.txt          R22D7C0DULO855.txt.tweets  R2PCH4Z4ZC01PB.txt         R38RXR8USISV94.txt.tweets  R3NO7IHYBFRHHB.txt         REZVCBI3L2685.txt.tweets
+R17FRD3D03DHK8.txt         R1K2ME7XQZRTN.txt.tweets   R259GTDWTK33M5.txt         R2PCH4Z4ZC01PB.txt.tweets  R38X04K6Q42EE3.txt         R3NO7IHYBFRHHB.txt.tweets  RH2NZEPRWAKTS.txt
+R17FRD3D03DHK8.txt.tweets  R1KJEEZ5RSS101.txt         R259GTDWTK33M5.txt.tweets  R2S2WP2FQVEARG.txt         R38X04K6Q42EE3.txt.tweets  R3RPPCPDM4QLM.txt          RH2NZEPRWAKTS.txt.tweets
+R1899SEYW741FA.txt         R1KJEEZ5RSS101.txt.tweets  R260B9ZTTD5DC2.txt         R2S2WP2FQVEARG.txt.tweets  R396JHO923TTF8.txt         R3RPPCPDM4QLM.txt.tweets   RHNZOTH3E02EZ.txt
+R1899SEYW741FA.txt.tweets  R1LE29RYR173BR.txt         R260B9ZTTD5DC2.txt.tweets  R2TT2WR0QO39G9.txt         R396JHO923TTF8.txt.tweets  R3SH1UJ4DYJWBK.txt         RHNZOTH3E02EZ.txt.tweets
+R1AVFGL39ARSM6.txt         R1LE29RYR173BR.txt.tweets  R27KG7MNJ5C9LD.txt         R2TT2WR0QO39G9.txt.tweets  R3A9IZQNNM9W3K.txt         R3SH1UJ4DYJWBK.txt.tweets  RL345VSFPB7R4.txt
+R1AVFGL39ARSM6.txt.tweets  R1LYD0LORZYG8M.txt         R27KG7MNJ5C9LD.txt.tweets  R2VDKZ4X1F992Q.txt         R3A9IZQNNM9W3K.txt.tweets  R3URUU4G9A1FO1.txt         RL345VSFPB7R4.txt.tweets
+R1BJOS745GHLAV.txt         R1LYD0LORZYG8M.txt.tweets  R28A60L3JTIZUI.txt         R2VDKZ4X1F992Q.txt.tweets  R3ANQNVFLDWTFF.txt         R3URUU4G9A1FO1.txt.tweets  RPUSBNNCSTI4B.txt
+R1BJOS745GHLAV.txt.tweets  R1MCT7PY7X515W.txt         R28A60L3JTIZUI.txt.tweets  R2WDV1AW1J0512.txt         R3ANQNVFLDWTFF.txt.tweets  R3V2FRSXWS7JHB.txt         RPUSBNNCSTI4B.txt.tweets
+R1C69UY8ZJF91E.txt         R1MCT7PY7X515W.txt.tweets  R290Y7TOTIM8BP.txt         R2WDV1AW1J0512.txt.tweets  R3C5OUA56KKLZK.txt         R3V2FRSXWS7JHB.txt.tweets  RPYQ6N2R7OXFB.txt
+R1C69UY8ZJF91E.txt.tweets  R1MSPHFMC7OKBV.txt         R290Y7TOTIM8BP.txt.tweets  R2ZL0J5IEOC2RC.txt         R3C5OUA56KKLZK.txt.tweets  R3W12GHFZU1Y2T.txt         RPYQ6N2R7OXFB.txt.tweets
+R1CVDNT5FM236S.txt         R1MSPHFMC7OKBV.txt.tweets  R29EIHM4KEYJWI.txt         R2ZL0J5IEOC2RC.txt.tweets  R3D51K9T88JGSC.txt         R3W12GHFZU1Y2T.txt.tweets  RQBMW2UV8JBFJ.txt
+R1CVDNT5FM236S.txt.tweets  R1NKU51ZEMHA7K.txt         R29EIHM4KEYJWI.txt.tweets  R2ZUS4TQMBSOAL.txt         R3D51K9T88JGSC.txt.tweets  R403HR4VL71K8.txt          RQBMW2UV8JBFJ.txt.tweets
+R1CXKOPOW0K2I9.txt         R1NKU51ZEMHA7K.txt.tweets  R2AWM1ECF2OW56.txt         R2ZUS4TQMBSOAL.txt.tweets  R3FEVO2OZ1H2VN.txt         R403HR4VL71K8.txt.tweets   RSNLSOVC98XTT.txt
+R1CXKOPOW0K2I9.txt.tweets  R1OJBOGT5D8Q1D.txt         R2AWM1ECF2OW56.txt.tweets  R31JSQX1A6IESE.txt         R3FEVO2OZ1H2VN.txt.tweets  R4CG3G94LE82O.txt          RSNLSOVC98XTT.txt.tweets
+R1EOM8Q95MESS5.txt         R1OJBOGT5D8Q1D.txt.tweets  R2CT5DGXF6GYA9.txt         R31JSQX1A6IESE.txt.tweets  R3FFG0F0RKPR8H.txt         R4CG3G94LE82O.txt.tweets   RTLG8BHPCNJY1.txt
+R1EOM8Q95MESS5.txt.tweets  R1RJWJLHN1MLD7.txt         R2CT5DGXF6GYA9.txt.tweets  R35A7ZTFXW7G2E.txt         R3FFG0F0RKPR8H.txt.tweets  R6JFFQ7QD9S9E.txt          RTLG8BHPCNJY1.txt.tweets
+R1F3B3Q02IZ114.txt         R1RJWJLHN1MLD7.txt.tweets  R2HN40RKHWH2DJ.txt         R35A7ZTFXW7G2E.txt.tweets  R3FHCVUBHKRF4L.txt         R6JFFQ7QD9S9E.txt.tweets   RUGSCP3XBNBUV.txt
+R1F3B3Q02IZ114.txt.tweets  R1T5UD2858KHTO.txt         R2HN40RKHWH2DJ.txt.tweets  R35E602YIU3XL4.txt         R3FHCVUBHKRF4L.txt.tweets  R6JXBPT5RFHNK.txt          RUGSCP3XBNBUV.txt.tweets
+R1FFHE354D563L.txt         R1T5UD2858KHTO.txt.tweets  R2HQ3WX26XBRFG.txt         R35E602YIU3XL4.txt.tweets  R3G6528PWEDVRA.txt         R6JXBPT5RFHNK.txt.tweets   RVFJEZZ01QP58.txt
+R1FFHE354D563L.txt.tweets  R1UW73W347V5X1.txt         R2HQ3WX26XBRFG.txt.tweets  R36D4QUKS1NBPK.txt         R3G6528PWEDVRA.txt.tweets  R6PNB8TTTA6SM.txt          RVFJEZZ01QP58.txt.tweets
+R1I7ARHZHTVP5I.txt         R1UW73W347V5X1.txt.tweets  R2KCPHK3RKSG6N.txt         R36D4QUKS1NBPK.txt.tweets  R3HQKUPKY7SCLU.txt         R6PNB8TTTA6SM.txt.tweets
+R1I7ARHZHTVP5I.txt.tweets  R1WLJRS5X06ZTS.txt         R2KCPHK3RKSG6N.txt.tweets  R36V6DYQXY1PX0.txt         R3HQKUPKY7SCLU.txt.tweets  RBJLNES9V3UBR.txt
+R1IF16DWWMC0CU.txt         R1WLJRS5X06ZTS.txt.tweets  R2KEEEVV8Y1NFI.txt         R36V6DYQXY1PX0.txt.tweets  R3ITPVMB21C8QV.txt         RBJLNES9V3UBR.txt.tweets
+]0;yehia@f6linuxA9: ~/assignment4yehia@f6linuxA9:~/assignment4$ head REVIEWS/RVFJEZZ01QP58.txt.tweets
+Funny most   review   book  either ecstatic  disgust     both side   True  woman  think   reach   know absolutely everyth  trie    artistic proces   artist amateur  professional   medium     trie  deny    artist   involve  real work  teache    selfish    awfully repetitive    SAID     individual idea   epiphanic    word    come        first time     more   money worth   Though  whole     wishywashy  newagey  though some thing  think  awfully vital   seem  huge   some   point nevertheles          individual basisome people really  some   stuff other  seen  before   Some   exercise  show  someth some  seem silly   Give    tailor     need    people     most    book   many silent poet   alway    their hand  draw  danc  sing   havent because theyve been afraid  fail   look silly      happy fulfill artistic life  roll their  over itbut  should realize   written specifically  people   deal   major block    only fair  consider    particular audience  mind 
+@Kenichan many time ball Manag save 50% rest bound
+@nationwideclas behav here because over
+@LOLTrish long time Rain only fine thank
+@smarrison wouldve been first didnt really though snyder doucheclown
+@fleuryli either depres think even know suitcase
+@Viennah happy mean time
+@ sorry didnt think before retweet
+@andywana sure what only much think trade away company asset sorry andy
+feel Dalla show gotta though youd think more show music game
+
+]0;yehia@f6linuxA9: ~/assignment4yehia@f6linuxA9:~/assignment4$ 
+]0;yehia@f6linuxA9: ~/assignment4yehia@f6linuxA9:~/assignment4$ ls REVIEWS_UNHELPFUL/
+R121VUBD3RIDXO.txt         R1R34O0PP5NR61.txt.tweets  R2E9VGNAQ0I0JM.txt         R37GMGOBPJ0NQX.txt.tweets  R3N5G92FKZ2HSK.txt         R679RNU1R2IX8.txt.tweets  RLQKITK5IJWO1.txt
+R121VUBD3RIDXO.txt.tweets  R1S0WBK8MVAQ3M.txt         R2E9VGNAQ0I0JM.txt.tweets  R38ZBJXWHC5XO3.txt         R3N5G92FKZ2HSK.txt.tweets  R7EEYTSIWZIK4.txt         RLQKITK5IJWO1.txt.tweets
+R12CUIV8LIFCYD.txt         R1S0WBK8MVAQ3M.txt.tweets  R2EPJOLQAERTKH.txt         R38ZBJXWHC5XO3.txt.tweets  R3OVHIS2IG8WCD.txt         R7EEYTSIWZIK4.txt.tweets  RMCAXHTOM96IW.txt
+R12CUIV8LIFCYD.txt.tweets  R1S3IRET9UWBG6.txt         R2EPJOLQAERTKH.txt.tweets  R3AHYTLUKGTJAX.txt         R3OVHIS2IG8WCD.txt.tweets  R8KSCC087QZBJ.txt         RMCAXHTOM96IW.txt.tweets
+R15KLPGL0NRLEQ.txt         R1S3IRET9UWBG6.txt.tweets  R2JMPJE5KUC3WH.txt         R3AHYTLUKGTJAX.txt.tweets  R3PGOAHT8TNPXG.txt         R8KSCC087QZBJ.txt.tweets  RMFTJ7Z5I7IJV.txt
+R15KLPGL0NRLEQ.txt.tweets  R1TYKLU1KGG2WI.txt         R2JMPJE5KUC3WH.txt.tweets  R3AI10T5TJFH8X.txt         R3PGOAHT8TNPXG.txt.tweets  R8VBZQJSY03VQ.txt         RMFTJ7Z5I7IJV.txt.tweets
+R1620G8YRW423M.txt         R1TYKLU1KGG2WI.txt.tweets  R2LJBFFCYAGB0Q.txt         R3AI10T5TJFH8X.txt.tweets  R3PS1Y38JL3E3R.txt         R8VBZQJSY03VQ.txt.tweets  RPLTXMYQOI2I8.txt
+R1620G8YRW423M.txt.tweets  R1UBD3PCKGMTEX.txt         R2LJBFFCYAGB0Q.txt.tweets  R3BN0XUPEPUE79.txt         R3PS1Y38JL3E3R.txt.tweets  R9D30BEROYYWC.txt         RPLTXMYQOI2I8.txt.tweets
+R1E3LYWTB1QIOL.txt         R1UBD3PCKGMTEX.txt.tweets  R2LU6T85N9L4U4.txt         R3BN0XUPEPUE79.txt.tweets  R3QFEFCL6HY0AX.txt         R9D30BEROYYWC.txt.tweets  RS25EC2AUQV4P.txt
+R1E3LYWTB1QIOL.txt.tweets  R1V2BZ1JFBCJBV.txt         R2LU6T85N9L4U4.txt.tweets  R3DEC2PJXLEWB1.txt         R3QFEFCL6HY0AX.txt.tweets  RD1SSCISY8Y3G.txt         RS25EC2AUQV4P.txt.tweets
+R1FPGCCLQV6KDY.txt         R1V2BZ1JFBCJBV.txt.tweets  R2M6J7JJ798UIZ.txt         R3DEC2PJXLEWB1.txt.tweets  R3R42UOO1Q9C6J.txt         RD1SSCISY8Y3G.txt.tweets  RSEFQZGC2HTFX.txt
+R1FPGCCLQV6KDY.txt.tweets  R1YOIJXXFZOBTX.txt         R2M6J7JJ798UIZ.txt.tweets  R3E1WKUD9S7RU9.txt         R3R42UOO1Q9C6J.txt.tweets  RDGYTVIEAW8A7.txt         RSEFQZGC2HTFX.txt.tweets
+R1HN21IS269EIA.txt         R1YOIJXXFZOBTX.txt.tweets  R2NFO96QUYDWI4.txt         R3E1WKUD9S7RU9.txt.tweets  R3TCP5DFYDZB8K.txt         RDGYTVIEAW8A7.txt.tweets  RUJBB196IYF5H.txt
+R1HN21IS269EIA.txt.tweets  R1ZIFZTOPZAQTF.txt         R2NFO96QUYDWI4.txt.tweets  R3FLXN29T1WU1E.txt         R3TCP5DFYDZB8K.txt.tweets  RE5XV6NVB17NT.txt         RUJBB196IYF5H.txt.tweets
+R1I6CE7QV421PI.txt         R1ZIFZTOPZAQTF.txt.tweets  R2OYCC4UISZCYC.txt         R3FLXN29T1WU1E.txt.tweets  R3TV44BQLYAGHQ.txt         RE5XV6NVB17NT.txt.tweets  RWQF33MVBJSDD.txt
+R1I6CE7QV421PI.txt.tweets  R20OPI397GA3EA.txt         R2OYCC4UISZCYC.txt.tweets  R3IJAAD4RWS5ZU.txt         R3TV44BQLYAGHQ.txt.tweets  RE6ULFBNWJ5H7.txt         RWQF33MVBJSDD.txt.tweets
+R1I6LKJEIEN89V.txt         R20OPI397GA3EA.txt.tweets  R2PTLHYPER3B4I.txt         R3IJAAD4RWS5ZU.txt.tweets  R3UA9C01HFUV9T.txt         RE6ULFBNWJ5H7.txt.tweets  RWVBCDA9HHJ1T.txt
+R1I6LKJEIEN89V.txt.tweets  R23DSJPINDFLLO.txt         R2PTLHYPER3B4I.txt.tweets  R3IYAU16YS1VW6.txt         R3UA9C01HFUV9T.txt.tweets  RG01PP21D844B.txt         RWVBCDA9HHJ1T.txt.tweets
+R1KVHLGG8J457R.txt         R23DSJPINDFLLO.txt.tweets  R2STQOSORN09R0.txt         R3IYAU16YS1VW6.txt.tweets  R3V65Q0LW8M5RW.txt         RG01PP21D844B.txt.tweets  RX1PT50H84E41.txt
+R1KVHLGG8J457R.txt.tweets  R25MOL7WS6SVWS.txt         R2STQOSORN09R0.txt.tweets  R3JEMFR0AXVQ5Z.txt         R3V65Q0LW8M5RW.txt.tweets  RGAAK1R7W1PHW.txt         RX1PT50H84E41.txt.tweets
+R1L2UZSQPYPX4K.txt         R25MOL7WS6SVWS.txt.tweets  R2U5FJBFOAMUWH.txt         R3JEMFR0AXVQ5Z.txt.tweets  R3W3MEPCJ5NTA6.txt         RGAAK1R7W1PHW.txt.tweets  RXCO7F2UKA9L4.txt
+R1L2UZSQPYPX4K.txt.tweets  R26W7AB99KS0XB.txt         R2U5FJBFOAMUWH.txt.tweets  R3JU9S171O4CGI.txt         R3W3MEPCJ5NTA6.txt.tweets  RGXCK5NR4RXJO.txt         RXCO7F2UKA9L4.txt.tweets
+R1MBNO9UJBRDCM.txt         R26W7AB99KS0XB.txt.tweets  R2UAULD2FRPW2Q.txt         R3JU9S171O4CGI.txt.tweets  R4AQBHP2FZ83U.txt          RGXCK5NR4RXJO.txt.tweets  RYAKOMK44DE58.txt
+R1MBNO9UJBRDCM.txt.tweets  R2940YS4ND7MK5.txt         R2UAULD2FRPW2Q.txt.tweets  R3LCQERTGNK3CD.txt         R4AQBHP2FZ83U.txt.tweets   RHR8DD8567UVV.txt         RYAKOMK44DE58.txt.tweets
+R1MENKTY3D1KGS.txt         R2940YS4ND7MK5.txt.tweets  R2XU9JU32I8ECL.txt         R3LCQERTGNK3CD.txt.tweets  R5LH8RCINSV42.txt          RHR8DD8567UVV.txt.tweets  RZV8MZHXYM864.txt
+R1MENKTY3D1KGS.txt.tweets  R29ODU820RYP5I.txt         R2XU9JU32I8ECL.txt.tweets  R3MC3M258X395Q.txt         R5LH8RCINSV42.txt.tweets   RKL3BR7D32YLB.txt         RZV8MZHXYM864.txt.tweets
+R1MJ6DCVH1PA5T.txt         R29ODU820RYP5I.txt.tweets  R2YEG8Y0FJ5SG5.txt         R3MC3M258X395Q.txt.tweets  R66Y1AAU8JATX.txt          RKL3BR7D32YLB.txt.tweets
+R1MJ6DCVH1PA5T.txt.tweets  R29YMGFDEVO3H0.txt         R2YEG8Y0FJ5SG5.txt.tweets  R3MLFB5RYKNOF4.txt         R66Y1AAU8JATX.txt.tweets   RLNJFZIB7LB3M.txt
+R1R34O0PP5NR61.txt         R29YMGFDEVO3H0.txt.tweets  R37GMGOBPJ0NQX.txt         R3MLFB5RYKNOF4.txt.tweets  R679RNU1R2IX8.txt          RLNJFZIB7LB3M.txt.tweets
+]0;yehia@f6linuxA9: ~/assignment4yehia@f6linuxA9:~/assignment4$ head REVIEWS_UNHELPFUL/RZV8MZHXYM864.txt.tweets
+ thoroughly enjoy  captivat collection  WW1 letter    remarkable true Canadian story Dear Harry read like  long bittersweet loveletter    couldnt   down 
+@cocomix04 tell story later good workin like three more hour
+
+6. Amongst all the tweets you filtered out as similar to these 100 REVIEWS/reviewID.txt files, count the word occurrences. Which 10 tweet words appear most frequently overall?
+]0;yehia@f6linuxA9: ~/assignment4yehia@f6linuxA9:~/assignment4$ cd REVIEWS
+]0;yehia@f6linuxA9: ~/assignment4/REVIEWSyehia@f6linuxA9:~/assignment4/REVIEWS$ for f in R*txt.tweets; do cat $f | sed '1d' >> allTweets; done
+]0;yehia@f6linuxA9: ~/assignment4/REVIEWSyehia@f6linuxA9:~/assignment4/REVIEWS$ sort allTweets | uniq > uniqTweets
+]0;yehia@f6linuxA9: ~/assignment4/REVIEWSyehia@f6linuxA9:~/assignment4/REVIEWS$ awk '{for(i=1;i<=NF;++i){D[$i]++}}END{for(k in D)print k, D[k]}' uniqTweets | sort -k2nr | head -n 10
+work 56
+like 48
+time 47
+feel 44
+know 39
+sleep 37
+really 36
+still 34
+some 33
+much 32
+]0;yehia@f6linuxA9: ~/assignment4/REVIEWSyehia@f6linuxA9:~/assignment4/REVIEWS$ 
+]0;yehia@f6linuxA9: ~/assignment4/REVIEWSyehia@f6linuxA9:~/assignment4/REVIEWS$ cd ../REVIEWS_UNHELPFUL/
+]0;yehia@f6linuxA9: ~/assignment4/REVIEWS_UNHELPFULyehia@f6linuxA9:~/assignment4/REVIEWS_UNHELPFUL$ 
+]0;yehia@f6linuxA9: ~/assignment4/REVIEWS_UNHELPFULyehia@f6linuxA9:~/assignment4/REVIEWS_UNHELPFUL$ for f in R*txt.tweets; do cat $f | sed '1d' >> allTweets; done
+]0;yehia@f6linuxA9: ~/assignment4/REVIEWS_UNHELPFULyehia@f6linuxA9:~/assignment4/REVIEWS_UNHELPFUL$ sort allTweets | uniq > uniqTweets
+]0;yehia@f6linuxA9: ~/assignment4/REVIEWS_UNHELPFULyehia@f6linuxA9:~/assignment4/REVIEWS_UNHELPFUL$ awk '{for(i=1;i<=NF;++i){D[$i]++}}END{for(k in D)print k, D[k]}' uniqTweets | sort -k2nr | head -n 10
+like 44
+time 44
+feel 42
+work 41
+know 37
+really 32
+some 32
+back 30
+think 30
+much 29
+]0;yehia@f6linuxA9: ~/assignment4/REVIEWS_UNHELPFULyehia@f6linuxA9:~/assignment4/REVIEWS_UNHELPFUL$ exit
+
+Script done on 2021-11-19 01:20:51+00:00 [COMMAND_EXIT_CODE="0"]
